@@ -1,6 +1,9 @@
 # Base requirements
-transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.16.2
-datasets[audio]==1.16.1
+# transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.16.2
+# datasets[audio]==1.16.1
+transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==5.8.1
+datasets[audio]==4.8.5
+accelerate==1.13.0
 matplotlib
 ipywidgets
 # Chapter 2 - Classification
